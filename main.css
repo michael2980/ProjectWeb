@@ -8,7 +8,44 @@ h2	{
 
 div >	p	{
 	text-align:center;
+	
 }
+
+.book3, .book5, .book6 {
+	width: 400px;
+	height: 600px;
+}
+
+.BookTitle {
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#movie1, #movie2, #movie3, #movie4, #movie5, #movie6, #movie7, #movie8 {
+	position: relative;
+	left: 150px;
+}
+
+.container2	{
+	display: grid;
+ 	align-items: center; 
+ 	grid-template-columns: auto auto;
+ 	column-gap: 5px;
+}
+
+.bookList:hover, .interesting:hover {
+	background-color: lightgray;
+	padding: 10px;
+	color: black;
+
+  }
+
+  #webLinks:hover {
+	background-color: lightgray;
+	padding: 10px;
+	color: black;
+  }
 
 img	{
 	max-width: 100%;
@@ -16,6 +53,47 @@ img	{
 	padding: 30px;
 	position: relative;
 }
+
+nav {
+	background-color: #333;
+  }
+
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+
+  nav li {
+	margin-right: 20px;
+	position: relative;
+  }
+
+  nav li a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+  }
+
+  .dropdown-menu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-menu {
+	display: block;
+  }
+
+  .dropdown-menu li a {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+  }
 
 .background {
 	background-color: lightgray;
@@ -121,8 +199,3 @@ body	{
 	background-size: cover;
 }
 
-
-#movie1	{
-	width: 370px;
-	height: 450px;
-}

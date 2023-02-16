@@ -1,5 +1,5 @@
 h1	{
-	font-family: 'Times New Roman', Times, serif;
+	font-family: cursive;
 }
 
 h2	{
@@ -8,6 +8,7 @@ h2	{
 
 div >	p	{
 	text-align:center;
+	font-family: cursive;
 	
 }
 
@@ -18,9 +19,93 @@ img	{
 	position: relative;
 }
 
+nav {
+	background-color: lightblue;
+  }
+
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+
+
+  nav li {
+	margin-right: 20px;
+	position: relative;
+  }
+
+  nav li a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+  }
+
+  .bookList:hover, .interesting:hover {
+	background-color: darkblue;
+	padding: 10px;
+
+  }
+
+  #webLinks:hover {
+	background-color: darkblue;
+	padding: 10px;
+  }
+
+  .book1, .book2, .book4, .book7 {
+	width: 200px;
+	height: 300px;
+}
+
+.book1, .book2, .book3, .book4, .book5, .book6, .book7 {
+	position: relative;
+	left: 42.5%;
+}
+
+#movie1, #movie2, #movie3, #movie4, #movie5, #movie6, #movie7, #movie8 {
+	position: relative;
+	left: 150px;
+}
+
+.BookTitle {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+  .dropdown-menu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-menu {
+	display: block;
+	padding: 10px;
+	
+  }
+
+
+
+  .dropdown-menu li a {
+	background-color: rgb(58, 58, 58);
+	color: white;
+	padding: 10px;
+  }
+
 .background {
 	background-color: lemonchiffon;
 }
+
+.alternateBackground {
+	background-color: rgb(67, 214, 86);
+  }
 
 .images:hover {
 transform:scale(.5, .5);
@@ -30,8 +115,8 @@ cursor: pointer;
 
 .images:hover .info {
 	background-color: lightgreen;
-	transition-delay: 0s;
-	transition-duration: .4s;
+	transition-delay: 3s;
+	transition-duration: 4s;
 }
 
 .movielink1:hover {
